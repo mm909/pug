@@ -1,0 +1,91 @@
+/* line 1, ../sass/index.sass */
+body {
+  background-color: pink;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
+
+/* line 9, ../sass/index.sass */
+html {
+  height: 100%;
+}
+
+/* line 12, ../sass/index.sass */
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 16, ../sass/index.sass */
+h1 {
+  color: #ccc;
+  weight: 300;
+}
+
+/* line 20, ../sass/index.sass */
+.scroll-padding {
+  margin-bottom: 1000px;
+}
+
+/* line 24, ../sass/index.sass */
+.content {
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+
+/* line 30, ../sass/index.sass */
+.para-content {
+  width: 80%;
+  margin: auto;
+}
+
+/* line 34, ../sass/index.sass */
+article {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 40, ../sass/index.sass */
+img {
+  max-width: 100%;
+}
+
+/* line 45, ../sass/index.sass */
+.para-box {
+  position: relative;
+  height: 100%;
+  background-image: url(https://picsum.photos/1000/1000/?random&&sig=1);
+  background-size: 100% 100%;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* line 56, ../sass/index.sass */
+.para-box-2 {
+  position: relative;
+  height: 100%;
+  background-image: url(https://picsum.photos/1000/1000/?random&&sig=2);
+  background-size: 100% 100%;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* line 67, ../sass/index.sass */
+.para-box-3 {
+  position: relative;
+  height: 100%;
+  background-image: url(https://picsum.photos/1000/1000/?random&&sig=3);
+  background-size: 100% 100%;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
