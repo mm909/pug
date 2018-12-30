@@ -1,12 +1,13 @@
 body
-  background:
-    color: pink
   margin: 0px
   padding: 0px
   font-family: "Open Sans", sans-serif
   height: 100%
 
 html
+  font-family: sans-serif
+  -ms-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
   height: 100%
 
 div
@@ -24,7 +25,7 @@ h1
 .content
   position: relative
   background: white
-  // margin-bottom: 400px
+  margin-bottom: 400px
   overflow: hidden
 
 .para-content
@@ -32,7 +33,7 @@ h1
   margin: auto
 
 article
-  // padding: 100px 0
+  padding: 100px 0
   max-width: 640px
   margin: 0 auto
   text-align: center
@@ -40,38 +41,51 @@ article
 img
   max-width: 100%
 
-
-
 .para-box
   position: relative
-  height: 100%
+  height: 600px
   background:
-    image: url(https://picsum.photos/1000/1000/?random&&sig=1)
-    size: 100% 100%
+    // image: url(https://picsum.photos/1000/1000/?random&&sig=1)
+    image: url('/images/bird-bg.jpg')
+    size: 100% 600px
     position: top center
-    attachment: fixed // This is the magic
+    attachment: fixed
     repeat: no-repeat
   overflow: hidden
 
-.para-box-2
-  position: relative
-  height: 100%
+.logo
+  height: 100px
+  width: 100%
   background:
-    image: url(https://picsum.photos/1000/1000/?random&&sig=2)
-    size: 100% 100%
-    position: top center
-    attachment: fixed // This is the magic
+    image: url('/images/black-bird-logo.svg')
+    position: center
     repeat: no-repeat
-  overflow: hidden
+  position: absolute
+  top: 50%
+  margin-top: -50px
 
-.para-box-3
-  position: relative
-  height: 100%
+.fore-bird
+  width: 960px
+  height: 733px
   background:
-    image: url(https://picsum.photos/1000/1000/?random&&sig=3)
-    size: 100% 100%
-    position: top center
-    attachment: fixed // This is the magic
+    image: url('/images/fore-bird.png')
     repeat: no-repeat
-  overflow: hidden
+    position: right bottom
+  position: absolute
+  left: 50%
+  margin-left: -480px
+  top: 380px
+  z-index: 2
+
+.back-bird
+  width: 960px
+  height: 298px
+  background:
+    image: url('/images/back-bird.png')
+    repeat: no-repeat
+    position: top left
+  position: absolute
+  left: 50%
+  margin-left: -480px
+
   // https://www.vexels.com/vectors/preview/127237/brazil-flag-feather
